@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/29684811/README.md)
 <p align="center">
   <img src="./assets/github-terminal.svg" alt="João Pedro Ferreira Matos - GitHub terminal profile" width="100%" />
 </p>
