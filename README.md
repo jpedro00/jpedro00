@@ -1,4 +1,3 @@
-~~~md
 <div align="center">
 
 # João Pedro Ferreira Matos
@@ -11,19 +10,36 @@ React · Node.js · APIs · PostgreSQL · Deploy · Production Systems
 
 ---
 
-```bash
+<pre>
 $ gh about
+
 Building and maintaining real production systems.
 
 Working with frontend, backend, APIs, databases,
 admin dashboards, browser extensions and business tools.
-<details open> <summary><strong>$ gh stack</strong></summary> <br>
+</pre>
+
+<details open>
+<summary><strong>$ gh stack</strong></summary>
+
+<br>
+
+<pre>
 Frontend    React · Vite · Tailwind · JavaScript · TypeScript
 Backend     Node.js · Express · REST APIs · Business Rules
 Database    PostgreSQL
 Deploy      Vercel · Render · GitHub
 Other       Chrome Extensions · Web3 · Admin Dashboards
-</details> <details> <summary><strong>$ gh projects --production</strong></summary> <br>
+</pre>
+
+</details>
+
+<details>
+<summary><strong>$ gh projects --production</strong></summary>
+
+<br>
+
+<pre>
 CryptoWalletSignGuard
 Chrome extension for crypto wallet security.
 
@@ -38,15 +54,29 @@ Institutional website and digital presence.
 
 SignGuard Website
 Landing page for Crypto Wallet SignGuard.
-</details> <details> <summary><strong>$ gh current-focus</strong></summary> <br>
+</pre>
+
+</details>
+
+<details>
+<summary><strong>$ gh current-focus</strong></summary>
+
+<br>
+
+<pre>
 Improving production systems
 Building admin dashboards
 Working with APIs and databases
 Developing browser extensions
 Creating real business solutions
+</pre>
+
 </details>
+
+---
+
 <div align="center">
 
-GitHub · LinkedIn · Portfolio coming soon
+[GitHub](https://github.com/jpedro00) · [LinkedIn](https://www.linkedin.com/in/jo%C3%A3o-pedro-ferreira-matos-37ba8b348) · Portfolio coming soon
 
-</div> ~~~
+</div>
