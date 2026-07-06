@@ -1,3 +1,4 @@
+~~~md
 <div align="center">
 
 # João Pedro Ferreira Matos
@@ -48,4 +49,4 @@ Creating real business solutions
 
 GitHub · LinkedIn · Portfolio coming soon
 
-</div> ```
+</div> ~~~
