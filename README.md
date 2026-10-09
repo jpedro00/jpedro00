@@ -27,36 +27,46 @@ I’m a **Full-Stack Developer at TironiTech** and an **Analysis and Systems Dev
 
 I enjoy going beyond the UI: understanding **how the whole application fits together**, where data flows, how background jobs run, and what needs to happen for software to reach production.
 
-### An application, from end to end
+### How I work — an iterative process
+
+I approach software engineering as a **feedback-driven process**, not a rigid checklist. I start by understanding the problem and its constraints, validate the proposed direction, implement deliberately, test real behavior and revisit earlier decisions whenever the evidence calls for it.
 
 <p align="center">
-  <img src="./jp-animated-architecture.svg" alt="Animated full-stack system blueprint: React client, Node.js API, business services, PostgreSQL, authentication, async workers, third-party integrations and deployment." width="100%" />
+  <img src="./jp-how-i-work.svg" alt="Animated How I Work diagram: analysis, validation, implementation, testing, delivery, and improvement connected through feedback loops." width="100%" />
 </p>
 
-<sub>Animated architecture illustration — an example of engineering concepts, not live telemetry or a specific production system. Animation respects reduced-motion settings.</sub>
+<sub>Illustrated engineering approach, not a fixed sequence or a live progress tracker. The diagram uses SVG animations, with a reduced-motion fallback.</sub>
 
 <details>
-  <summary><b>01 — Request lifecycle · From the browser to persisted data</b></summary>
+  <summary><b>Analyze & validate — understand before building</b></summary>
   <br />
-  The frontend sends requests to a Node.js / Express REST API. Backend services validate input, apply business rules and interact with PostgreSQL. The response returns to the interface with a consistent contract.
+  Investigate the problem, existing behavior, business requirements, constraints and edge cases. Define what success looks like and verify assumptions before committing to a solution.
   <br /><br />
-  <code>React → HTTP / REST → Node.js / Express → Services → PostgreSQL → Response</code>
+  <code>Context → Requirements → Constraints → Feasibility → Validation</code>
 </details>
 
 <details>
-  <summary><b>02 — Security, background work & integrations</b></summary>
+  <summary><b>Implement & test — build with feedback</b></summary>
   <br />
-  Authentication and permissions define what each user can access. Queues and workers handle asynchronous work, while external APIs and webhooks connect applications to other services. Logs and tests make failures easier to diagnose.
+  Work across the relevant frontend, backend, data or integration layers. Test the important paths, failure scenarios and regressions; revisit the implementation or the original assumptions when a test reveals something new.
   <br /><br />
-  <code>Auth / Permissions · Workers · Events · Webhooks · External APIs · Debugging</code>
+  <code>Design ↔ Implementation ↔ Testing ↔ Refinement</code>
 </details>
 
 <details>
-  <summary><b>03 — Delivery & operations</b></summary>
+  <summary><b>Review & deliver — ship with care</b></summary>
   <br />
-  Beyond implementation, software needs controlled configuration, versioning, testing and deployment. My projects include experience with GitHub, Vercel, Render and PostgreSQL-based services.
+  Inspect the changes, review their scope, check configuration and compatibility, and prepare the release. Validate deployment behavior rather than treating a successful build as proof that everything works.
   <br /><br />
-  <code>Build → Test → Review → Deploy → Monitor → Improve</code>
+  <code>Review → Verify → Release → Validate</code>
+</details>
+
+<details>
+  <summary><b>Monitor & improve — keep the loop open</b></summary>
+  <br />
+  Use logs, feedback and observed behavior to diagnose issues and identify the next improvement. Monitoring can lead back to analysis, validation, implementation or testing at any point.
+  <br /><br />
+  <code>Observe → Investigate → Learn → Iterate</code>
 </details>
 
 ### Technologies I work with
