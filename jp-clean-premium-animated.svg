@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+<title id="title">João Pedro Ferreira Matos — Full-Stack Developer</title>
+<desc id="desc">Clean premium animated developer banner. João Pedro, Full-Stack Developer at TironiTech. A softly animated engineering pipeline shows frontend, backend and delivery.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#080D17"/><stop offset="54%" stop-color="#0B111D"/><stop offset="100%" stop-color="#0E182A"/>
+  </linearGradient>
+  <radialGradient id="aura" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#4268BC" stop-opacity=".25"/><stop offset="100%" stop-color="#4268BC" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#73C8EF"/><stop offset="55%" stop-color="#89A9FA"/><stop offset="100%" stop-color="#B5A4FA"/>
+  </linearGradient>
+  <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#172235" stop-opacity=".96"/><stop offset="100%" stop-color="#10192A" stop-opacity=".96"/>
+  </linearGradient>
+  <linearGradient id="hairline" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#80B8F2" stop-opacity=".5"/><stop offset="100%" stop-color="#80B8F2" stop-opacity=".07"/>
+  </linearGradient>
+  <pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse">
+    <path d="M52 0H0V52" fill="none" stroke="#9BACCA" stroke-width=".6" stroke-opacity=".055"/>
+  </pattern>
+  <clipPath id="bounds"><rect x="0" y="0" width="1200" height="520" rx="19"/></clipPath>
+  <style>
+    .sans{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}
+    .mono{font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace}
+    .fade1{opacity:0;animation:enter .85s ease-out .10s forwards}
+    .fade2{opacity:0;animation:enter .85s ease-out .29s forwards}
+    .fade3{opacity:0;animation:enter .85s ease-out .48s forwards}
+    .fade4{opacity:0;animation:enter .85s ease-out .67s forwards}
+    .glow{animation:breathe 7s ease-in-out infinite}
+    .beam{stroke-dasharray:350;stroke-dashoffset:350;animation:draw 1.65s .25s ease-out forwards}
+    .track{stroke-dasharray:3 9;animation:dash 8s linear infinite}
+    .signal{animation:travel 6s ease-in-out infinite}
+    .status{animation:blink 3s ease-in-out infinite}
+    .statusRing{transform-origin:1091px 124px;animation:pulse 3s ease-out infinite}
+    .tag1{opacity:0;animation:enter .7s ease-out .88s forwards}
+    .tag2{opacity:0;animation:enter .7s ease-out 1.01s forwards}
+    .tag3{opacity:0;animation:enter .7s ease-out 1.14s forwards}
+    .tag4{opacity:0;animation:enter .7s ease-out 1.27s forwards}
+    @keyframes enter{from{opacity:0;transform:translateY(11px)}to{opacity:1;transform:translateY(0)}}
+    @keyframes breathe{0%,100%{opacity:.64}50%{opacity:1}}
+    @keyframes draw{to{stroke-dashoffset:0}}
+    @keyframes dash{to{stroke-dashoffset:-96}}
+    @keyframes travel{0%,8%{transform:translateY(0);opacity:0}18%{opacity:1}82%{opacity:1}94%,100%{transform:translateY(194px);opacity:0}}
+    @keyframes blink{0%,100%{opacity:1}50%{opacity:.36}}
+    @keyframes pulse{0%{opacity:.65;transform:scale(.75)}70%,100%{opacity:0;transform:scale(1.8)}}
+    @media (prefers-reduced-motion:reduce){
+      .fade1,.fade2,.fade3,.fade4,.tag1,.tag2,.tag3,.tag4,.glow,.beam,.track,.signal,.status,.statusRing{animation:none!important;opacity:1!important;transform:none!important}
+      .beam{stroke-dashoffset:0}.statusRing{opacity:.26!important}
+    }
+  </style>
+</defs>
+<g clip-path="url(#bounds)">
+  <rect width="1200" height="520" fill="url(#bg)"/>
+  <rect width="1200" height="520" fill="url(#grid)"/>
+  <ellipse class="glow" cx="930" cy="250" rx="450" ry="340" fill="url(#aura)"/>
+  <path d="M0 0H1200V520H0Z" stroke="#A5B6D0" stroke-opacity=".24" stroke-width="2" fill="none"/>
+  <path class="beam" d="M62 90H405" stroke="url(#accent)" stroke-width="1.5"/>
+  <path d="M62 466H1139" stroke="#7390B4" stroke-opacity=".20"/>
+
+  <!-- Compact personal brand -->
+  <g class="fade1">
+    <rect x="62" y="33" width="39" height="39" rx="11" fill="#182A43" stroke="#76A7ED" stroke-opacity=".48"/>
+    <text x="69" y="59" class="sans" font-size="17" font-weight="800" fill="#DBE9FF">JP</text>
+    <text x="117" y="58" class="mono" font-size="13" letter-spacing="2.5" fill="#AEC0DA">SOFTWARE / ENGINEERING</text>
+    <text x="588" y="59" class="mono" font-size="12" letter-spacing="1.2" fill="#7E92AE">01 — PROFILE</text>
+  </g>
+
+  <!-- Big editorial typographic introduction -->
+  <g class="fade2">
+    <text x="56" y="209" class="sans" font-size="108" letter-spacing="-7" font-weight="800" fill="#F3F6FD">JOÃO</text>
+    <text x="56" y="316" class="sans" font-size="108" letter-spacing="-7" font-weight="800" fill="#F3F6FD">PEDRO<tspan fill="url(#accent)">.</tspan></text>
+    <text x="63" y="343" class="sans" font-size="15" font-weight="700" letter-spacing="5" fill="#8DACC9">FERREIRA MATOS</text>
+  </g>
+  <g class="fade3">
+    <text x="63" y="389" class="sans" font-size="21" font-weight="600" fill="#DFE9F9">Building products from idea to production.</text>
+    <text x="63" y="419" class="sans" font-size="16" fill="#A1B3CD">Full-Stack Developer at TironiTech</text>
+  </g>
+
+  <!-- Reserved, compact stack labels -->
+  <g class="mono" font-size="11.5" font-weight="600" letter-spacing=".35">
+    <g class="tag1"><rect x="62" y="435" width="77" height="27" rx="8" fill="#182A42" stroke="#45607D" stroke-opacity=".55"/><text x="78" y="453" fill="#C8D9F2">REACT</text></g>
+    <g class="tag2"><rect x="148" y="435" width="90" height="27" rx="8" fill="#182A42" stroke="#45607D" stroke-opacity=".55"/><text x="162" y="453" fill="#C8D9F2">NODE.JS</text></g>
+    <g class="tag3"><rect x="247" y="435" width="111" height="27" rx="8" fill="#182A42" stroke="#45607D" stroke-opacity=".55"/><text x="260" y="453" fill="#C8D9F2">POSTGRESQL</text></g>
+    <g class="tag4"><rect x="367" y="435" width="122" height="27" rx="8" fill="#182A42" stroke="#45607D" stroke-opacity=".55"/><text x="380" y="453" fill="#C8D9F2">CLOUD &amp; APIs</text></g>
+  </g>
+
+  <!-- Architectural pipeline visualization -->
+  <g class="fade3">
+    <rect x="728" y="91" width="414" height="355" rx="19" fill="url(#card)" stroke="#6E8CB3" stroke-opacity=".35"/>
+    <text x="754" y="130" class="mono" font-size="12.5" font-weight="700" letter-spacing="1.65" fill="#D8E5F8">ENGINEERING PIPELINE</text>
+    <circle cx="1091" cy="124" r="5" fill="#78DDCE" class="status"/>
+    <circle cx="1091" cy="124" r="9" fill="none" stroke="#78DDCE" stroke-width="1.6" class="statusRing"/>
+    <path d="M754 148H1116" stroke="url(#hairline)"/>
+  </g>
+  <g class="fade4">
+    <path class="track" d="M767 196V393" fill="none" stroke="#96BDEB" stroke-width="1.7" opacity=".60"/>
+    <circle class="signal" cx="767" cy="196" r="5.5" fill="#A3DDFF"/>
+    <circle cx="767" cy="196" r="8" fill="#162944" stroke="#82C4EF" stroke-width="2"/>
+    <circle cx="767" cy="290" r="8" fill="#162944" stroke="#9CADF1" stroke-width="2"/>
+    <circle cx="767" cy="384" r="8" fill="#162944" stroke="#A8D8CF" stroke-width="2"/>
+
+    <rect x="795" y="167" width="320" height="68" rx="10" fill="#1A293F" fill-opacity=".72" stroke="#6485AB" stroke-opacity=".32"/>
+    <text x="817" y="192" class="mono" font-size="11" font-weight="700" letter-spacing="1.1" fill="#8BCBF0">01 / INTERFACES</text>
+    <text x="817" y="217" class="sans" font-size="17" font-weight="600" fill="#EFF5FF">React · Frontend</text>
+
+    <rect x="795" y="261" width="320" height="68" rx="10" fill="#1A293F" fill-opacity=".72" stroke="#6485AB" stroke-opacity=".32"/>
+    <text x="817" y="286" class="mono" font-size="11" font-weight="700" letter-spacing="1.1" fill="#A1B8FA">02 / APPLICATION LOGIC</text>
+    <text x="817" y="311" class="sans" font-size="17" font-weight="600" fill="#EFF5FF">Node.js · REST APIs</text>
+
+    <rect x="795" y="355" width="320" height="68" rx="10" fill="#1A293F" fill-opacity=".72" stroke="#6485AB" stroke-opacity=".32"/>
+    <text x="817" y="380" class="mono" font-size="11" font-weight="700" letter-spacing="1.1" fill="#A0DED0">03 / DATA &amp; DELIVERY</text>
+    <text x="817" y="405" class="sans" font-size="17" font-weight="600" fill="#EFF5FF">PostgreSQL · Deploy</text>
+  </g>
+
+  <g class="fade4">
+    <text x="62" y="493" class="mono" font-size="11" letter-spacing="2" fill="#8297B3">THINK  /  BUILD  /  TEST  /  SHIP</text>
+    <text x="920" y="493" class="mono" font-size="11" letter-spacing="1.25" fill="#8297B3">GITHUB.COM/JPEDRO00</text>
+  </g>
+</g>
+</svg>
