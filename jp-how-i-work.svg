@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="795" viewBox="0 0 1200 795" role="img" aria-labelledby="title desc">
+<title id="title">How I Work — João Pedro Ferreira Matos</title>
+<desc id="desc">An animated iterative software engineering workflow showing analysis, validation, implementation, testing, review and delivery, and monitoring and improvement. Feedback loops connect the stages in both directions.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#060B14"/><stop offset="49%" stop-color="#0A1221"/><stop offset="100%" stop-color="#0D1930"/></linearGradient>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#15263D"/><stop offset="100%" stop-color="#0F1A2D"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#84E3EE"/><stop offset="50%" stop-color="#9BB6FC"/><stop offset="100%" stop-color="#C7ACF9"/></linearGradient>
+  <radialGradient id="halo"><stop offset="0%" stop-color="#386EEA" stop-opacity=".20"/><stop offset="100%" stop-color="#386EEA" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="49" height="49" patternUnits="userSpaceOnUse"><path d="M49 0H0V49" stroke="#A2C1DD" stroke-opacity=".064" stroke-width=".8" fill="none"/></pattern>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#93B9EA" opacity=".9"/></marker>
+  <style>
+  .sans{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}
+  .mono{font-family:"SFMono-Regular",Consolas,Monaco,monospace}
+  .fade{opacity:0;animation:comeIn .9s ease-out .3s forwards}
+  .blink{animation:blink 3s ease-in-out infinite}
+  .motion-line{animation:moveLine 9s linear infinite}
+  .breath{animation:breath 6s ease-in-out infinite}
+  .orb{animation:orb 4.5s ease-out infinite;transform-box:fill-box;transform-origin:center}
+  @keyframes comeIn{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+  @keyframes blink{0%,100%{opacity:1}50%{opacity:.3}}
+  @keyframes moveLine{to{stroke-dashoffset:-144}}
+  @keyframes breath{0%,100%{opacity:.5}50%{opacity:1}}
+  @keyframes orb{0%{opacity:.75;transform:scale(.7)}75%,100%{opacity:0;transform:scale(2.4)}}
+  @media(prefers-reduced-motion:reduce){
+    .fade,.blink,.motion-line,.breath,.orb{animation:none!important;opacity:1!important;transform:none!important}
+    circle animateMotion{display:none}
+  }
+  </style>
+</defs>
+<rect width="1200" height="795" rx="20" fill="url(#bg)"/>
+<rect width="1200" height="795" rx="20" fill="url(#grid)"/>
+<ellipse cx="660" cy="460" rx="480" ry="410" fill="url(#halo)" class="breath"/>
+<rect x="1" y="1" width="1198" height="793" rx="19" stroke="#8A9FBD" stroke-opacity=".25" fill="none"/>
+<!-- HEADER -->
+<g class="fade">
+  <text x="58" y="65" class="mono" font-size="13" letter-spacing="2.2" font-weight="700" fill="#8EDBEA">PROCESS / ITERATIVE ENGINEERING</text>
+  <text x="54" y="139" class="sans" font-size="69" font-weight="830" letter-spacing="-3.5" fill="#F0F6FF">HOW I <tspan fill="url(#accent)">WORK.</tspan></text>
+  <text x="58" y="175" class="sans" font-size="17" fill="#A9BFDA">Analyze. Validate. Build. Test. Refine. Deliver. Repeat when needed.</text>
+  <rect x="948" y="90" width="198" height="36" rx="10" fill="#1C2C46" stroke="#99BAE5" stroke-opacity=".45"/>
+  <circle cx="968" cy="108" r="4.5" fill="#87D9CE" class="blink"/>
+  <text x="982" y="113" class="mono" font-size="11.6" font-weight="600" fill="#C1D7ED">CONTINUOUS FEEDBACK</text>
+  <path d="M56 197H1144" stroke="#7894B8" stroke-opacity=".4"/>
+</g>
+<!-- CONNECTIONS: cyclic, not rigid waterfall -->
+<g>
+  <path d="M370 293H445" fill="none" stroke="#8DDDEA" stroke-opacity=".57" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 8" marker-end="url(#arrow)" class="motion-line" />
+  <path d="M755 293H830" fill="none" stroke="#ABB0F6" stroke-opacity=".57" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 8" marker-end="url(#arrow)" class="motion-line" />
+  <path d="M985 354V535" fill="none" stroke="#C7B6F5" stroke-opacity=".57" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 8" marker-end="url(#arrow)" class="motion-line" />
+  <path d="M830 602H755" fill="none" stroke="#91DFC9" stroke-opacity=".57" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 8" marker-end="url(#arrow)" class="motion-line" />
+  <path d="M445 602H370" fill="none" stroke="#9BB8EC" stroke-opacity=".57" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 8" marker-end="url(#arrow)" class="motion-line" />
+  <path d="M60 602H34V293H60" fill="none" stroke="#83C6ED" stroke-opacity=".57" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 8" marker-end="url(#arrow)" class="motion-line" />
+  <circle r="4" fill="#8DE4F2"><animateMotion path="M370 293H445" dur="3.5s" begin="0s" repeatCount="indefinite" calcMode="linear"/></circle>
+  <circle r="4" fill="#B5ACF9"><animateMotion path="M755 293H830" dur="3.5s" begin=".7s" repeatCount="indefinite" calcMode="linear"/></circle>
+  <circle r="4" fill="#C7B4FF"><animateMotion path="M985 354V535" dur="5.2s" begin="1.2s" repeatCount="indefinite" calcMode="linear"/></circle>
+  <circle r="4" fill="#8CE5D4"><animateMotion path="M830 602H755" dur="3.8s" begin="1.4s" repeatCount="indefinite" calcMode="linear"/></circle>
+  <circle r="4" fill="#A5BFF8"><animateMotion path="M445 602H370" dur="3.8s" begin=".2s" repeatCount="indefinite" calcMode="linear"/></circle>
+  <circle r="4" fill="#8FE1F2"><animateMotion path="M60 602H34V293H60" dur="7.5s" begin=".4s" repeatCount="indefinite" calcMode="linear"/></circle>
+  <!-- Short reverse loops reflect iteration, not a fixed order -->
+  <path d="M1072 535V354" fill="none" stroke="#BCA9F7" stroke-opacity=".36" stroke-width="1.6" stroke-dasharray="3 8" marker-end="url(#arrow)" class="motion-line"/>
+  <path d="M445 268H370" fill="none" stroke="#8FD9EE" stroke-opacity=".32" stroke-width="1.5" stroke-dasharray="3 8" marker-end="url(#arrow)" class="motion-line"/>
+  <circle r="4" fill="#D7BDFD"><animateMotion path="M1072 535V354" dur="6s" begin="2s" repeatCount="indefinite" calcMode="linear"/></circle>
+  <!-- multiple paths to central iteration hub -->
+  <path d="M600 354V401" fill="none" stroke="#92BDF0" stroke-opacity=".45" stroke-dasharray="4 7" stroke-width="2" marker-end="url(#arrow)" class="motion-line"/>
+  <path d="M600 490V535" fill="none" stroke="#92BDF0" stroke-opacity=".45" stroke-dasharray="4 7" stroke-width="2" marker-end="url(#arrow)" class="motion-line"/>
+  <path d="M219 354C270 415 328 445 405 445" fill="none" stroke="#8BDCEB" stroke-opacity=".38" stroke-dasharray="3 8" stroke-width="1.6" marker-end="url(#arrow)" class="motion-line"/>
+  <path d="M795 445C895 435 958 412 985 354" fill="none" stroke="#B5B0EE" stroke-opacity=".38" stroke-dasharray="3 8" stroke-width="1.6" marker-end="url(#arrow)" class="motion-line"/>
+</g>
+<!-- Workflow nodes -->
+<g class="fade">
+  <rect x="60" y="224" width="310" height="130" rx="16" fill="url(#panel)" stroke="#85DFEA" stroke-opacity=".48" stroke-width="1.1"/>
+  <rect x="78" y="243" width="40" height="40" rx="11" fill="#85DFEA" fill-opacity=".13" stroke="#85DFEA" stroke-opacity=".54"/>
+  <text x="98" y="270" class="mono" font-size="18" font-weight="750" text-anchor="middle" fill="#85DFEA">A</text>
+  <text x="129" y="264" class="sans" font-size="18" font-weight="730" fill="#EDF4FF">Analyze</text>
+  <text x="79" y="307" class="sans" font-size="13.4" fill="#B5C7E0">Understand the problem, context</text>
+  <text x="79" y="328" class="sans" font-size="13.4" fill="#93ACC9">requirements &amp; business rules</text>
+  <circle class="blink" cx="352" cy="246" r="3.3" fill="#85DFEA" />
+</g>
+<g class="fade">
+  <rect x="445" y="224" width="310" height="130" rx="16" fill="url(#panel)" stroke="#A5B7FD" stroke-opacity=".48" stroke-width="1.1"/>
+  <rect x="463" y="243" width="40" height="40" rx="11" fill="#A5B7FD" fill-opacity=".13" stroke="#A5B7FD" stroke-opacity=".54"/>
+  <text x="483" y="270" class="mono" font-size="18" font-weight="750" text-anchor="middle" fill="#A5B7FD">V</text>
+  <text x="514" y="264" class="sans" font-size="18" font-weight="730" fill="#EDF4FF">Validate</text>
+  <text x="464" y="307" class="sans" font-size="13.4" fill="#B5C7E0">Check assumptions, scope</text>
+  <text x="464" y="328" class="sans" font-size="13.4" fill="#93ACC9">constraints &amp; edge cases</text>
+  <circle class="blink" cx="737" cy="246" r="3.3" fill="#A5B7FD" />
+</g>
+<g class="fade">
+  <rect x="830" y="224" width="310" height="130" rx="16" fill="url(#panel)" stroke="#C7ACFB" stroke-opacity=".48" stroke-width="1.1"/>
+  <rect x="848" y="243" width="40" height="40" rx="11" fill="#C7ACFB" fill-opacity=".13" stroke="#C7ACFB" stroke-opacity=".54"/>
+  <text x="868" y="270" class="mono" font-size="18" font-weight="750" text-anchor="middle" fill="#C7ACFB">I</text>
+  <text x="899" y="264" class="sans" font-size="18" font-weight="730" fill="#EDF4FF">Implement</text>
+  <text x="849" y="307" class="sans" font-size="13.4" fill="#B5C7E0">Design and build the solution</text>
+  <text x="849" y="328" class="sans" font-size="13.4" fill="#93ACC9">frontend, backend &amp; integrations</text>
+  <circle class="blink" cx="1122" cy="246" r="3.3" fill="#C7ACFB" />
+</g>
+<g class="fade">
+  <rect x="830" y="535" width="310" height="130" rx="16" fill="url(#panel)" stroke="#A0E9CE" stroke-opacity=".48" stroke-width="1.1"/>
+  <rect x="848" y="554" width="40" height="40" rx="11" fill="#A0E9CE" fill-opacity=".13" stroke="#A0E9CE" stroke-opacity=".54"/>
+  <text x="868" y="581" class="mono" font-size="18" font-weight="750" text-anchor="middle" fill="#A0E9CE">T</text>
+  <text x="899" y="575" class="sans" font-size="18" font-weight="730" fill="#EDF4FF">Test &amp; Refine</text>
+  <text x="849" y="618" class="sans" font-size="13.4" fill="#B5C7E0">Verify logic, user journeys</text>
+  <text x="849" y="639" class="sans" font-size="13.4" fill="#93ACC9">integrations &amp; regressions</text>
+  <circle class="blink" cx="1122" cy="557" r="3.3" fill="#A0E9CE" />
+</g>
+<g class="fade">
+  <rect x="445" y="535" width="310" height="130" rx="16" fill="url(#panel)" stroke="#A9C3F9" stroke-opacity=".48" stroke-width="1.1"/>
+  <rect x="463" y="554" width="40" height="40" rx="11" fill="#A9C3F9" fill-opacity=".13" stroke="#A9C3F9" stroke-opacity=".54"/>
+  <text x="483" y="581" class="mono" font-size="18" font-weight="750" text-anchor="middle" fill="#A9C3F9">D</text>
+  <text x="514" y="575" class="sans" font-size="18" font-weight="730" fill="#EDF4FF">Review &amp; Deliver</text>
+  <text x="464" y="618" class="sans" font-size="13.4" fill="#B5C7E0">Review changes, prepare releases</text>
+  <text x="464" y="639" class="sans" font-size="13.4" fill="#93ACC9">and validate deployments</text>
+  <circle class="blink" cx="737" cy="557" r="3.3" fill="#A9C3F9" />
+</g>
+<g class="fade">
+  <rect x="60" y="535" width="310" height="130" rx="16" fill="url(#panel)" stroke="#8BDCF2" stroke-opacity=".48" stroke-width="1.1"/>
+  <rect x="78" y="554" width="40" height="40" rx="11" fill="#8BDCF2" fill-opacity=".13" stroke="#8BDCF2" stroke-opacity=".54"/>
+  <text x="98" y="581" class="mono" font-size="18" font-weight="750" text-anchor="middle" fill="#8BDCF2">M</text>
+  <text x="129" y="575" class="sans" font-size="18" font-weight="730" fill="#EDF4FF">Monitor &amp; Improve</text>
+  <text x="79" y="618" class="sans" font-size="13.4" fill="#B5C7E0">Investigate logs and feedback</text>
+  <text x="79" y="639" class="sans" font-size="13.4" fill="#93ACC9">iterate on the next problem</text>
+  <circle class="blink" cx="352" cy="557" r="3.3" fill="#8BDCF2" />
+</g>
+<!-- center panel -->
+<g class="fade">
+  <rect x="405" y="399" width="390" height="93" rx="20" fill="#1A2D48" stroke="#89B5EB" stroke-opacity=".58" stroke-width="1.4"/>
+  <rect x="415" y="409" width="370" height="73" rx="13" stroke="#86B7E8" stroke-opacity=".16" fill="none"/>
+  <circle cx="451" cy="445" r="15" fill="#83DAEB" opacity=".12"/>
+  <circle class="orb" cx="451" cy="445" r="10" fill="none" stroke="#84DFF1" stroke-width="2"/>
+  <circle cx="451" cy="445" r="4.5" fill="#8BE5EE" class="blink"/>
+  <text x="486" y="443" class="sans" font-size="23" font-weight="790" fill="#EFF5FF">ITERATE, DON'T ASSUME.</text>
+  <text x="486" y="468" class="mono" font-size="12.4" letter-spacing=".7" fill="#9DBBD8">Feedback can restart any stage.</text>
+</g>
+<!-- footer -->
+<g class="fade">
+  <path d="M55 699H1144" stroke="#7A91AE" stroke-opacity=".4"/>
+  <text x="58" y="733" class="mono" font-size="12" font-weight="700" letter-spacing="1.5" fill="#93B5D8">ADAPTIVE WORKFLOW</text>
+  <text x="58" y="755" class="sans" font-size="14" fill="#A9BCD4">Every project requires judgment: some stages overlap, repeat or happen in parallel.</text>
+  <rect x="929" y="715" width="215" height="33" rx="9" fill="#1B2D48" stroke="#6D94C5" stroke-opacity=".4"/>
+  <text x="1036.5" y="736" class="mono" text-anchor="middle" font-size="12" font-weight="700" fill="#B5CDEA">THINK / BUILD / SHIP</text>
+</g>
+</svg>
