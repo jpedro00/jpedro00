@@ -76,7 +76,6 @@ I enjoy going beyond the UI: understanding **how the whole application fits toge
 | **[Clube da Rifa · Frontend](https://github.com/jpedro00/siteRIFAfront)** / **[Backend](https://github.com/jpedro00/siteRIFAback)** | Multi-app platform, API contracts, database boundaries, authentication, workers, and application architecture. |
 | **[SignGuard](https://github.com/jpedro00/SignGuard-SITE)** | User-facing web product and interface development. |
 | **[TironiTech website](https://github.com/jpedro00/tironitech)** | Corporate web experience, UI and interactive frontend. |
-| **[AssistenteVirtual](https://github.com/jpedro00/AssistenteVirtual)** | TypeScript-based software project. |
 | **[Portfolio](https://github.com/jpedro00/PORTFOLIO_)** | Personal website and selected work. |
 
 <details>
