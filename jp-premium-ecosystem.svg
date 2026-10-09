@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="532" viewBox="0 0 1200 532" role="img" aria-labelledby="title desc"><title id="title">João Pedro — animated full stack identity</title><desc id="desc">Animated premium portfolio header and compact animated frontend, API, database, worker and integration system map.</desc><defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#060B13"/><stop offset="48%" stop-color="#0C1424"/><stop offset="100%" stop-color="#0D1930"/></linearGradient>
+  <linearGradient id="frame" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#14243C"/><stop offset="100%" stop-color="#0D182A"/></linearGradient>
+  <linearGradient id="blue" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#7CE0F3"/><stop offset="60%" stop-color="#85B6F6"/><stop offset="100%" stop-color="#B7A5FF"/></linearGradient>
+  <radialGradient id="aura" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#3971E9" stop-opacity=".20"/><stop offset="100%" stop-color="#3971E9" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" stroke="#8FABC9" stroke-opacity=".064" stroke-width="1" fill="none"/></pattern>
+  <style>
+.font{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}
+.mono{font-family:"SFMono-Regular",Consolas,Monaco,monospace}
+.reveal{opacity:0;animation:reveal .9s ease-out forwards}
+.delay1{animation-delay:.15s}.delay2{animation-delay:.33s}.delay3{animation-delay:.52s}.delay4{animation-delay:.75s}
+.light{animation:pulse 3s ease-in-out infinite}.scan{animation:scan 9s ease-in-out infinite}
+.dashes{stroke-dasharray:5 9;animation:dashes 8s linear infinite}
+.shimmer{animation:shimmer 5s ease-in-out infinite}
+.ring{transform-box:fill-box;transform-origin:center;animation:ring 3.5s ease-out infinite}
+@keyframes reveal{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.38}}
+@keyframes scan{0%{transform:translateY(0);opacity:0}14%{opacity:.5}70%{opacity:.5}95%,100%{transform:translateY(330px);opacity:0}}
+@keyframes dashes{to{stroke-dashoffset:-112}}
+@keyframes shimmer{0%,100%{opacity:.45}50%{opacity:1}}
+@keyframes ring{0%{opacity:.8;transform:scale(.55)}85%,100%{opacity:0;transform:scale(2.5)}}
+@media(prefers-reduced-motion:reduce){.reveal,.light,.scan,.dashes,.shimmer,.ring{animation:none!important;opacity:1!important;transform:none!important}}
+</style>
+</defs>
+<rect width="1200" height="532" rx="20" fill="url(#bg)"/><rect width="1200" height="532" rx="20" fill="url(#grid)"/><ellipse cx="936" cy="255" rx="432" ry="346" fill="url(#aura)"/><rect x="1" y="1" width="1198" height="530" rx="19" fill="none" stroke="#91A9CB" stroke-opacity=".23"/>
+<g class="reveal delay1"><rect x="55" y="34" width="39" height="39" rx="10" fill="#1A2A45" stroke="#83B7EF" stroke-opacity=".5"/>
+<text x="75" y="60" class="font" text-anchor="middle" font-size="16" font-weight="850" fill="#EBF4FF">JP</text>
+<text x="110" y="60" class="mono" letter-spacing="2.5" font-size="12.5" fill="#A9BEDB">ENGINEERING / PORTFOLIO</text>
+<text x="1050" y="60" class="mono" font-size="11.5" fill="#7894B3">EST. 2025</text>
+<path d="M55 91H1145" fill="none" stroke="#6B85A4" stroke-width="1" stroke-opacity=".7"  stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="reveal delay2">
+<text x="52" y="184" class="font" font-size="101" font-weight="850" letter-spacing="-7" fill="#F2F7FF">JOÃO</text>
+<text x="52" y="282" class="font" font-size="101" font-weight="850" letter-spacing="-7" fill="url(#blue)">PEDRO.</text>
+<text x="58" y="310" class="font" font-size="16" font-weight="750" letter-spacing="5" fill="#93AFD0">FERREIRA MATOS</text>
+</g>
+<g class="reveal delay3">
+<text x="58" y="372" class="font" font-size="23" font-weight="650" fill="#E1ECFB">I build the whole experience.</text>
+<text x="58" y="402" class="font" font-size="16.5" fill="#A9BCD5">From pixels to APIs, databases and delivery.</text>
+<g><rect x="58" y="428" width="102" height="30" rx="8" fill="#1A2B45" stroke="#9DC5E8" stroke-opacity=".35"/><text x="109" y="448" class="mono" font-size="11.3" font-weight="650" text-anchor="middle" fill="#9DC5E8">REACT</text></g>
+<g><rect x="168" y="428" width="110" height="30" rx="8" fill="#1A2B45" stroke="#9DC5E8" stroke-opacity=".35"/><text x="223" y="448" class="mono" font-size="11.3" font-weight="650" text-anchor="middle" fill="#9DC5E8">NODE.JS</text></g>
+<g><rect x="286" y="428" width="116" height="30" rx="8" fill="#1A2B45" stroke="#9DC5E8" stroke-opacity=".35"/><text x="344" y="448" class="mono" font-size="11.3" font-weight="650" text-anchor="middle" fill="#9DC5E8">POSTGRESQL</text></g>
+<g><rect x="410" y="428" width="106" height="30" rx="8" fill="#1A2B45" stroke="#9DC5E8" stroke-opacity=".35"/><text x="463" y="448" class="mono" font-size="11.3" font-weight="650" text-anchor="middle" fill="#9DC5E8">DEPLOY</text></g>
+</g>
+<g class="reveal delay1">
+<rect x="667" y="113" width="478" height="355" rx="18" fill="url(#frame)" stroke="#7892B6" stroke-opacity=".42"/>
+<text x="690" y="144" class="mono" font-size="12" font-weight="700" letter-spacing="1.6" fill="#CFDFFA">FULL-STACK / SYSTEM VIEW</text>
+<circle class="light" cx="1107" cy="139" r="5" fill="#86E7D6"/>
+<circle class="ring" cx="1107" cy="139" r="6" fill="none" stroke="#86E7D6"/>
+<path d="M689 160H1122" fill="none" stroke="#6D86A9" stroke-width="1" stroke-opacity=".7"  stroke-linecap="round" stroke-linejoin="round"/>
+<rect class="scan" x="681" y="167" width="449" height="2" rx="1" fill="#84C5FF" opacity=".18"/>
+</g>
+<g class="reveal delay2">
+<g class="reveal delay2"><rect x="687" y="183" width="196" height="69" rx="13" fill="url(#frame)" stroke="#708AAC" stroke-opacity=".45"/>
+  <rect x="702" y="199" width="34" height="34" rx="9" fill="#80DDFA" fill-opacity=".12" stroke="#80DDFA" stroke-opacity=".55"/>
+  <text x="719" y="222" class="mono" font-size="13" font-weight="800" text-anchor="middle" fill="#80DDFA">UI</text>
+  <text x="748" y="213" class="font" font-size="16" font-weight="750" fill="#ECF3FF">React / Frontend</text>
+  <text x="748" y="234" class="font" font-size="12.6" fill="#A5B8D1">Components &amp; UX</text>
+  <circle cx="866" cy="200" r="2.8" fill="#80DDFA" class="light"/>
+  </g>
+<g class="reveal delay2"><rect x="932" y="183" width="191" height="69" rx="13" fill="url(#frame)" stroke="#708AAC" stroke-opacity=".45"/>
+  <rect x="947" y="199" width="34" height="34" rx="9" fill="#ABAEFF" fill-opacity=".12" stroke="#ABAEFF" stroke-opacity=".55"/>
+  <text x="964" y="222" class="mono" font-size="13" font-weight="800" text-anchor="middle" fill="#ABAEFF">API</text>
+  <text x="993" y="213" class="font" font-size="16" font-weight="750" fill="#ECF3FF">Node.js / Express</text>
+  <text x="993" y="234" class="font" font-size="12.6" fill="#A5B8D1">REST + business logic</text>
+  <circle cx="1106" cy="200" r="2.8" fill="#ABAEFF" class="light"/>
+  </g>
+<g class="reveal delay2"><rect x="812" y="290" width="185" height="69" rx="13" fill="url(#frame)" stroke="#708AAC" stroke-opacity=".45"/>
+  <rect x="827" y="306" width="34" height="34" rx="9" fill="#9CCFF4" fill-opacity=".12" stroke="#9CCFF4" stroke-opacity=".55"/>
+  <text x="844" y="329" class="mono" font-size="13" font-weight="800" text-anchor="middle" fill="#9CCFF4">DB</text>
+  <text x="873" y="320" class="font" font-size="16" font-weight="750" fill="#ECF3FF">PostgreSQL</text>
+  <text x="873" y="341" class="font" font-size="12.6" fill="#A5B8D1">Persistence &amp; queries</text>
+  <circle cx="980" cy="307" r="2.8" fill="#9CCFF4" class="light"/>
+  </g>
+<g class="reveal delay2"><rect x="687" y="378" width="196" height="69" rx="13" fill="url(#frame)" stroke="#708AAC" stroke-opacity=".45"/>
+  <rect x="702" y="394" width="34" height="34" rx="9" fill="#98E5C4" fill-opacity=".12" stroke="#98E5C4" stroke-opacity=".55"/>
+  <text x="719" y="417" class="mono" font-size="13" font-weight="800" text-anchor="middle" fill="#98E5C4">JOB</text>
+  <text x="748" y="408" class="font" font-size="16" font-weight="750" fill="#ECF3FF">Async Workers</text>
+  <text x="748" y="429" class="font" font-size="12.6" fill="#A5B8D1">Tasks + notifications</text>
+  <circle cx="866" cy="395" r="2.8" fill="#98E5C4" class="light"/>
+  </g>
+<g class="reveal delay2"><rect x="932" y="378" width="191" height="69" rx="13" fill="url(#frame)" stroke="#708AAC" stroke-opacity=".45"/>
+  <rect x="947" y="394" width="34" height="34" rx="9" fill="#D4B1FD" fill-opacity=".12" stroke="#D4B1FD" stroke-opacity=".55"/>
+  <text x="964" y="417" class="mono" font-size="13" font-weight="800" text-anchor="middle" fill="#D4B1FD">EXT</text>
+  <text x="993" y="408" class="font" font-size="16" font-weight="750" fill="#ECF3FF">External APIs</text>
+  <text x="993" y="429" class="font" font-size="12.6" fill="#A5B8D1">Events &amp; integrations</text>
+  <circle cx="1106" cy="395" r="2.8" fill="#D4B1FD" class="light"/>
+  </g>
+<path d="M883 217H932" fill="none" stroke="#8BAEE5" stroke-width="2" stroke-opacity=".7" class="dashes" stroke-linecap="round" stroke-linejoin="round"/><circle r="3.4" fill="#8DDFFF" opacity=".96"><animateMotion path="M883 217H932" dur="2s" begin="0s" repeatCount="indefinite" calcMode="linear"/></circle>
+<path d="M1027 252V273H903V290" fill="none" stroke="#8BAEE5" stroke-width="2" stroke-opacity=".7" class="dashes" stroke-linecap="round" stroke-linejoin="round"/><circle r="3.5" fill="#B4B0FF" opacity=".96"><animateMotion path="M1027 252V273H903V290" dur="4.2s" begin=".5s" repeatCount="indefinite" calcMode="linear"/></circle>
+<path d="M860 359V368H785V378" fill="none" stroke="#8BAEE5" stroke-width="2" stroke-opacity=".7" class="dashes" stroke-linecap="round" stroke-linejoin="round"/><circle r="3.3" fill="#8FE9E2" opacity=".96"><animateMotion path="M860 359V368H785V378" dur="3.4s" begin="1s" repeatCount="indefinite" calcMode="linear"/></circle>
+<path d="M997 359V368H1028V378" fill="none" stroke="#8BAEE5" stroke-width="2" stroke-opacity=".7" class="dashes" stroke-linecap="round" stroke-linejoin="round"/><circle r="3.3" fill="#CBB7FF" opacity=".96"><animateMotion path="M997 359V368H1028V378" dur="3.4s" begin="2s" repeatCount="indefinite" calcMode="linear"/></circle>
+</g>
+<path d="M56 483H1145" fill="none" stroke="#647C9A" stroke-width="1" stroke-opacity=".7"  stroke-linecap="round" stroke-linejoin="round"/>
+<text x="57" y="510" class="mono" font-size="11" letter-spacing="2" fill="#849CB8">THINK  /  BUILD  /  TEST  /  SHIP</text>
+<text x="1032" y="510" class="mono" font-size="11.5" fill="#9AAFC9">@JPEDRO00</text>
+</svg>
