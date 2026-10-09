@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./jp-engineering.svg" alt="João Pedro Ferreira Matos — Full-Stack Developer at TironiTech. Frontend, backend, data, and delivery." width="100%" />
+  <img src="./jp-clean-premium-animated.svg" alt="João Pedro Ferreira Matos — animated clean premium engineering profile banner, Full-Stack Developer at TironiTech." width="100%" />
 </p>
 
 <p align="center">
