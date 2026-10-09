@@ -1,6 +1,5 @@
-[README.md](https://github.com/user-attachments/files/33230050/README.md)
 <p align="center">
-  <img src="./assets/jp-engineering.svg" alt="João Pedro Ferreira Matos — Full-Stack Developer at TironiTech. Frontend, backend, data, and delivery." width="100%" />
+  <img src="./jp-engineering.svg" alt="João Pedro Ferreira Matos — Full-Stack Developer at TironiTech. Frontend, backend, data, and delivery." width="100%" />
 </p>
 
 <p align="center">
