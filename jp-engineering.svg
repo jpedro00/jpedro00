@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="530" viewBox="0 0 1200 530" role="img" aria-labelledby="title desc">
+  <title id="title">João Pedro — Full-Stack Developer</title>
+  <desc id="desc">A dark editorial engineering identity banner showing João Pedro, developer at TironiTech, and a four-part product architecture: frontend, backend, data, and delivery.</desc>
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#060a14" />
+      <stop offset="58%" stop-color="#0b1124" />
+      <stop offset="100%" stop-color="#090b19" />
+    </linearGradient>
+    <radialGradient id="halo" cx="65%" cy="55%" r="65%">
+      <stop offset="0%" stop-color="#193875" stop-opacity=".53" />
+      <stop offset="60%" stop-color="#112c61" stop-opacity=".14" />
+      <stop offset="100%" stop-color="#112c61" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="electric" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8decfc" />
+      <stop offset="56%" stop-color="#7398ff" />
+      <stop offset="100%" stop-color="#bda8ff" />
+    </linearGradient>
+    <linearGradient id="panelFill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#111d37" stop-opacity=".93" />
+      <stop offset="100%" stop-color="#0c1226" stop-opacity=".97" />
+    </linearGradient>
+    <linearGradient id="panelLine" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6a94dd" stop-opacity=".56" />
+      <stop offset="100%" stop-color="#66718f" stop-opacity=".22" />
+    </linearGradient>
+    <pattern id="grid" width="46" height="46" patternUnits="userSpaceOnUse">
+      <path d="M46 0H0V46" fill="none" stroke="#8ca8d3" stroke-opacity=".065" stroke-width="1" />
+    </pattern>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="10" />
+    </filter>
+    <clipPath id="round"><rect x="0" y="0" width="1200" height="530" rx="20" /></clipPath>
+  </defs>
+  <g clip-path="url(#round)">
+    <rect width="1200" height="530" fill="url(#surface)" />
+    <rect width="1200" height="530" fill="url(#grid)" />
+    <ellipse cx="940" cy="250" rx="610" ry="460" fill="url(#halo)" />
+    <path d="M525 -80L300 620" fill="none" stroke="#769bfb" stroke-opacity=".055" stroke-width="125" />
+    <path d="M1090 -30L900 580" fill="none" stroke="#8aaaff" stroke-opacity=".04" stroke-width="110" />
+    <rect x=".5" y=".5" width="1199" height="529" rx="19.5" fill="none" stroke="#60708a" stroke-opacity=".48" />
+
+    <!-- Editorial frame -->
+    <rect x="52" y="37" width="33" height="33" rx="9" fill="#152443" stroke="#6187dd" stroke-opacity=".7" />
+    <path d="M64 48v11h6v-11m0 7h6v-7" fill="none" stroke="url(#electric)" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="98" y="59" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="3" fill="#d6e7ff">JP / ENGINEERING</text>
+    <path d="M292 53H878" stroke="#92a9ce" stroke-opacity=".18" />
+    <circle cx="903" cy="53" r="4.2" fill="#92e6ff" />
+    <text x="920" y="59" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="2.1" fill="#9bb2cf">BRAZIL · 2026</text>
+
+    <g transform="translate(54 0)">
+      <rect x="2" y="115" width="252" height="27" rx="13.5" fill="#172b49" stroke="#3f6a9a" stroke-opacity=".55" />
+      <circle cx="20" cy="128.5" r="3.5" fill="#83e5fa" />
+      <text x="33" y="133" font-family="Inter, Arial, sans-serif" font-size="11.5" font-weight="650" letter-spacing="1.65" fill="#b9dff7">FULL-STACK DEVELOPMENT</text>
+
+      <text x="-1" y="244" font-family="Inter, 'Arial Black', Arial, sans-serif" font-size="105" font-weight="850" letter-spacing="-6" fill="#f3f7ff">JOÃO</text>
+      <text x="-1" y="351" font-family="Inter, 'Arial Black', Arial, sans-serif" font-size="105" font-weight="850" letter-spacing="-6" fill="#f3f7ff">PEDRO<tspan fill="url(#electric)">.</tspan></text>
+      <text x="3" y="386" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="650" letter-spacing="6" fill="#8eb5eb">FERREIRA MATOS</text>
+      <rect x="3" y="410" width="365" height="1" fill="#8ba5d2" opacity=".32" />
+      <text x="3" y="441" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="500" fill="#d4e1f3">Building real products, end to end.</text>
+      <text x="3" y="464" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="450" fill="#8fa4c3">Full-Stack Developer at TironiTech</text>
+    </g>
+
+    <!-- Technical blueprint / modular system map -->
+    <rect x="727" y="106" width="420" height="374" rx="18" fill="url(#panelFill)" stroke="url(#panelLine)" stroke-width="1.2" />
+    <path d="M728 155H1146" stroke="#809abc" stroke-opacity=".27" />
+    <text x="751" y="138" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="2.1" fill="#dce8fa">SYSTEM BLUEPRINT</text>
+    <circle cx="1087" cy="132" r="4.6" fill="#7be4fc" />
+    <circle cx="1087" cy="132" r="11.5" fill="#7be4fc" opacity=".19" />
+    <text x="1102" y="136" font-family="Inter, Arial, sans-serif" font-size="11.5" fill="#a6bbd2">JP/01</text>
+
+    <path d="M772 197V426" fill="none" stroke="#72ade6" stroke-opacity=".42" stroke-width="1.4" stroke-dasharray="3 6" />
+    <path d="M772 197H812M772 273H812M772 349H812M772 425H812" stroke="#7ca8eb" stroke-opacity=".45" stroke-width="1.5" />
+
+    <g font-family="Inter, Arial, sans-serif">
+      <!-- frontend -->
+      <rect x="807" y="171" width="311" height="61" rx="9" fill="#172742" fill-opacity=".86" stroke="#53749d" stroke-opacity=".5" />
+      <circle cx="772" cy="197" r="8" fill="#0e213e" stroke="#8cedff" stroke-width="2" />
+      <circle cx="772" cy="197" r="2.4" fill="#8cedff" />
+      <text x="827" y="194" font-size="12" fill="#88def6" letter-spacing="1.3" font-weight="700">01 / FRONTEND</text>
+      <text x="827" y="215" font-size="15" fill="#edf3ff" font-weight="550">React · Interfaces</text>
+      <path d="M1092 186l9 0m-4.5 -4.5v9" stroke="#86e3f9" stroke-width="1.4" opacity=".8" />
+
+      <!-- backend -->
+      <rect x="807" y="247" width="311" height="61" rx="9" fill="#172742" fill-opacity=".86" stroke="#53749d" stroke-opacity=".5" />
+      <circle cx="772" cy="273" r="8" fill="#0e213e" stroke="#9eb5ff" stroke-width="2" />
+      <circle cx="772" cy="273" r="2.4" fill="#9eb5ff" />
+      <text x="827" y="270" font-size="12" fill="#a2b4ff" letter-spacing="1.3" font-weight="700">02 / BACKEND</text>
+      <text x="827" y="291" font-size="15" fill="#edf3ff" font-weight="550">Node.js · REST APIs</text>
+      <path d="M1092 262l9 0m-4.5 -4.5v9" stroke="#a2b4ff" stroke-width="1.4" opacity=".8" />
+
+      <!-- data -->
+      <rect x="807" y="323" width="311" height="61" rx="9" fill="#172742" fill-opacity=".86" stroke="#53749d" stroke-opacity=".5" />
+      <circle cx="772" cy="349" r="8" fill="#0e213e" stroke="#baa9ff" stroke-width="2" />
+      <circle cx="772" cy="349" r="2.4" fill="#baa9ff" />
+      <text x="827" y="346" font-size="12" fill="#c3afff" letter-spacing="1.3" font-weight="700">03 / DATA</text>
+      <text x="827" y="367" font-size="15" fill="#edf3ff" font-weight="550">PostgreSQL · SQL</text>
+      <path d="M1092 338l9 0m-4.5 -4.5v9" stroke="#c3afff" stroke-width="1.4" opacity=".8" />
+
+      <!-- delivery -->
+      <rect x="807" y="399" width="311" height="61" rx="9" fill="#172742" fill-opacity=".86" stroke="#53749d" stroke-opacity=".5" />
+      <circle cx="772" cy="425" r="8" fill="#0e213e" stroke="#83e9da" stroke-width="2" />
+      <circle cx="772" cy="425" r="2.4" fill="#83e9da" />
+      <text x="827" y="422" font-size="12" fill="#86eadb" letter-spacing="1.3" font-weight="700">04 / DELIVERY</text>
+      <text x="827" y="443" font-size="15" fill="#edf3ff" font-weight="550">Vercel · Render</text>
+      <path d="M1092 414l9 0m-4.5 -4.5v9" stroke="#83e9da" stroke-width="1.4" opacity=".8" />
+    </g>
+
+    <!-- footer accent -->
+    <path d="M53 501H1147" stroke="#8ba4ca" stroke-opacity=".23" />
+    <text x="55" y="519" font-family="Inter, Arial, sans-serif" font-size="10.5" font-weight="650" letter-spacing="2" fill="#7e95b6">THINK  /  BUILD  /  TEST  /  SHIP</text>
+    <text x="950" y="519" font-family="Inter, Arial, sans-serif" font-size="10.5" font-weight="650" letter-spacing="2" fill="#7e95b6">JPEDRO00 · GITHUB</text>
+  </g>
+</svg>
